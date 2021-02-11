@@ -47,6 +47,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  outline: solid 1px tomato;
 }
 
 .web {
@@ -56,8 +57,7 @@ body {
 
 .back {
   background: rgba(47, 48, 58, 1);
-  width: 1600px;
-  height: 600px;
+  min-height: 600px;
 }
 
 .business {
@@ -69,12 +69,25 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: 0px;
+  width: 696px;
+  min-height: 120px;
+  outline: solid 1px tomato;
 }
 
 .bus-button {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  min-width: 200px;
+  min-height: 50px;
+  color: var(--white-text);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 30px;
+  outline: solid 1px tomato;
 }
 
 .head {
@@ -158,13 +171,9 @@ body {
   text-decoration: none;
 }
 
-li {
-  list-style-type: none;
-}
-
 ul {
-  padding-left: 2;
-  display: inline;
+  list-style: none;
+  padding: 0px;
 }
 
 .visually-hidden {
@@ -180,21 +189,45 @@ ul {
   overflow: hidden;
 }
 
-.page-nav {
-  outline: solid 1px tomato;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.studio {
-}
-
 .inline {
   display: inline;
 }
 
+.studio {
+  margin-left: 93px;
+  outline: solid 1px tomato;
+}
+
+.portfolio {
+  margin-left: 50px;
+  outline: solid 1px tomato;
+}
+
+.contacts {
+  margin-left: 50px;
+  outline: solid 1px tomato;
+}
+
+.mail {
+  margin-left: 320px;
+  outline: solid 1px tomato;
+  padding: 0px;
+}
+
+.tel {
+  margin-left: 50px;
+  outline: solid 1px tomato;
+  padding: 0px;
+}
+
 .head-body {
-  width: 1600px;
-  padding-left: 200px;
-  padding-right: 200px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
 }
