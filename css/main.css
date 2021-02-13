@@ -48,6 +48,7 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   outline: solid 1px tomato;
+  margin-right: 43px;
 }
 
 .web {
@@ -57,8 +58,6 @@ body {
 
 .back {
   background: rgba(47, 48, 58, 1);
-  min-height: 600px;
-  width: 1600px;
 }
 
 .business {
@@ -83,10 +82,7 @@ body {
   min-width: 200px;
   min-height: 50px;
   color: var(--white-text);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 10px 32px;
   margin-top: 30px;
   outline: solid 1px tomato;
 }
@@ -125,6 +121,7 @@ body {
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .teammate {
@@ -134,6 +131,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .team-spec {
@@ -143,6 +141,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .main-address {
@@ -190,45 +189,99 @@ ul {
   overflow: hidden;
 }
 
-.inline {
-  display: inline;
-}
-
-.studio {
-  margin-left: 93px;
-  outline: solid 1px tomato;
-}
-
-.portfolio {
-  margin-left: 50px;
-  outline: solid 1px tomato;
-}
-
-.contacts {
-  margin-left: 50px;
-  outline: solid 1px tomato;
-}
-
-.mail {
-  margin-left: 320px;
-  outline: solid 1px tomato;
-  padding: 0px;
-}
-
-.tel {
-  margin-left: 50px;
-  outline: solid 1px tomato;
-  padding: 0px;
-}
-
-.head-body {
-  min-height: 80px;
-  display: flex;
-  align-items: center;
-}
-
 .container {
   width: 1200px;
   margin: 0px auto;
   padding: 0px 15px;
+  outline: solid tomato;
+}
+
+.page-nav,
+.nav-list,
+.contacts-list {
+  display: flex;
+}
+
+.page-nav {
+  align-items: center;
+  min-height: 80px;
+}
+
+.nav-list li:first-child {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav-list li:last-child {
+  margin-left: 50px;
+}
+
+.contacts-list li:first-child {
+  margin-left: 331px;
+}
+
+.contacts-list li:last-child {
+  margin-left: 50px;
+}
+
+.business {
+  padding-top: 200px;
+  margin-left: 237px;
+}
+
+.bus-button {
+  margin-top: 40px;
+  margin-left: 485px;
+}
+
+.hero {
+  background-color: var(--back-color);
+  min-height: 600px;
+}
+
+.about {
+  display: flex;
+}
+
+.about-list {
+  display: flex;
+}
+
+.spec-imgs {
+  display: flex;
+  align-items: center;
+}
+
+.our-spec {
+  text-align: center;
+}
+
+.spec-list {
+  display: flex;
+}
+
+.spec-item:first-child {
+  margin-right: 30px;
+}
+
+.spec-item:last-child {
+  margin-left: 30px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.team-head {
+  text-align: center;
+}
+
+.team {
+  display: flex;
+}
+
+.team-list {
+  display: flex;
 }
