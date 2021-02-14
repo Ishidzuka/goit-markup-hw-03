@@ -105,6 +105,10 @@ header {
   color: rgba(33, 150, 243, 1);
 }
 
+.nav-contact:focus {
+  color: rgba(33, 150, 243, 1);
+}
+
 .nav-link {
   text-decoration: none;
   color: rgba(33, 33, 33, 1);
@@ -116,6 +120,10 @@ header {
 }
 
 .nav-link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+.nav-link:focus {
   color: rgba(33, 150, 243, 1);
 }
 
@@ -164,6 +172,7 @@ header {
   background: var(--btn-color);
   color: var(--h-color);
   border: none;
+  margin-top: 95px;
 }
 
 .hero-btn:hover {
@@ -174,10 +183,131 @@ header {
   border-radius: 4px;
 }
 
+.hero-btn:focus {
+  background: var(--btn-hover);
+  color: var(--white-text);
+}
+
 .img-item {
   display: flex;
 }
 
-.img-item img {
+.img-item {
   display: inline-block;
+}
+
+.img-item {
+  border: 1px solid #eeeeee;
+}
+
+.head-text {
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
+
+.img-head {
+  margin-top: 20px;
+}
+
+.img-head {
+  color: rgba(33, 33, 33, 1);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  padding: 0px 24px;
+}
+
+.head-text {
+  color: rgba(117, 117, 117, 1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding: 0px 24px;
+}
+
+.img-item:nth-child(2) {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.img-item:nth-child(5) {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.img-item:nth-child(8) {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-group:nth-child(2) {
+  margin: 30px 0px;
+}
+
+.img-group:first-child {
+  margin-top: 50px;
+}
+
+.img-group:last-child {
+  margin-bottom: 95px;
+}
+
+/*футер*/
+.logo-studio {
+  color: rgba(255, 255, 255, 1);
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-footer {
+  color: rgba(33, 33, 33, 1);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.footer-back {
+  background-color: var(--back-color);
+  height: 252px;
+  padding-top: 60px;
+}
+
+/*адрес*/
+.main-address {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+}
+
+.footer-contact:first-child {
+  margin-bottom: 9px;
+}
+
+.footer-contact:last-child {
+  margin-bottom: 60px;
 }
