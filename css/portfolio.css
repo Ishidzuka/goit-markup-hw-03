@@ -2,14 +2,63 @@ body {
   font-family: 'Roboto', Raleway, sans-serif;
 }
 
+/*переменные*/
 :root {
   --gray-text: rgba(117, 117, 117, 1);
   --hover-color: rgba(33, 150, 243, 1);
   --h-color: rgba(33, 33, 33, 1);
   --white-text: rgba(255, 255, 255, 1);
   --back-color: rgba(47, 48, 58, 1);
+  --btn-hover: rgba(33, 150, 243, 1);
+  --btn-color: rgba(245, 244, 250, 1);
 }
 
+.container {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*сброс*/
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Навигация*/
 .nav-contact {
   color: rgba(117, 117, 117, 1);
   text-decoration: none;
@@ -18,6 +67,38 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+}
+
+.page-nav,
+.nav-list,
+.contacts-list {
+  display: flex;
+}
+
+.page-nav {
+  align-items: center;
+  min-height: 80px;
+}
+
+header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
+.nav-list li:first-child {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav-list li:last-child {
+  margin-left: 50px;
+}
+
+.contacts-list li:first-child {
+  margin-left: 331px;
+}
+
+.contacts-list li:last-child {
+  margin-left: 50px;
 }
 
 .nav-contact:hover {
@@ -47,6 +128,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  margin-right: 43px;
 }
 
 .web {
@@ -54,96 +136,48 @@ body {
   text-decoration: none;
 }
 
-.main-address {
-  color: rgba(255, 255, 255, 1);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+/*герой*/
+.hero-list {
+  display: flex;
+  justify-content: center;
 }
 
-.studio {
-  color: rgba(255, 255, 255, 1);
+.hero-list li:first-child {
+  margin-right: 8px;
 }
 
-.footer-contact {
-  color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
+.hero-list li:last-child {
+  margin-left: 8px;
 }
 
-.footer-back {
-  background: rgba(47, 48, 58, 1);
+.hero-list li:nth-child(2) {
+  margin-right: 8px;
 }
 
-li {
-  list-style-type: none;
+.hero-list li:nth-child(3) {
+  margin-right: 8px;
 }
 
-ul {
-  padding-left: 2;
+.hero-btn {
+  padding: 6px 22px;
+  border-radius: 4px;
+  background: var(--btn-color);
+  color: var(--h-color);
+  border: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.head {
-  color: rgba(33, 33, 33, 1);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-}
-
-.head-text {
-  color: rgba(117, 117, 117, 1);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-}
-
-.all {
-  background: rgba(245, 244, 250, 1);
+.hero-btn:hover {
+  color: var(--white-text);
+  background: var(--btn-hover);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
-.webs {
-  background: rgba(245, 244, 250, 1);
-  border-radius: 4px;
+.img-item {
+  display: flex;
 }
 
-.api {
-  background: rgba(245, 244, 250, 1);
-  border-radius: 4px;
+.img-item img {
+  display: inline-block;
 }
-
-.des {
-  background: rgba(245, 244, 250, 1);
-  border-radius: 4px;
-}
-
-.mar {
-  background: rgba(245, 244, 250, 1);
-  border-radius: 4px;
-}
-
-.
