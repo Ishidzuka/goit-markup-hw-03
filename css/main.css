@@ -334,9 +334,6 @@ header {
   letter-spacing: 0.03em;
 }
 
-.logo-footer {
-}
-
 .footer-back {
   background-color: var(--back-color);
   height: 252px;
