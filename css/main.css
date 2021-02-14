@@ -51,6 +51,10 @@ ul {
   padding: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*Навигация*/
 .nav-contact {
   color: rgba(117, 117, 117, 1);
@@ -304,29 +308,12 @@ header {
   border-radius: 0px 0px 4px 4px;
 }
 
-/*адрес*/
-.main-address {
-  color: rgba(255, 255, 255, 1);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-}
-
 /*футер*/
-.footer-back {
-  background: rgba(47, 48, 58, 1);
-  width: 1600px;
-  height: 252px;
-  display: flex;
-}
-
 .logo-studio {
   color: rgba(255, 255, 255, 1);
 }
 
-.footer-contact {
+.link {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-weight: normal;
@@ -345,6 +332,32 @@ header {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  margin-top: 60px;
-  margin-bottom: 20px;
+}
+
+.logo-footer {
+}
+
+.footer-back {
+  background-color: var(--back-color);
+  height: 252px;
+  padding-top: 60px;
+}
+
+/*адрес*/
+.main-address {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+}
+
+.footer-contact:first-child {
+  margin-bottom: 9px;
+}
+
+.footer-contact:last-child {
+  margin-bottom: 60px;
 }
