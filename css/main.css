@@ -49,6 +49,7 @@ img {
 ul {
   list-style: none;
   padding: 0px;
+  margin: 0;
 }
 
 a {
@@ -155,7 +156,6 @@ header {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0px;
   width: 696px;
   min-height: 120px;
 }
@@ -195,7 +195,6 @@ header {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding -top: 94px;
   margin-bottom: 10px;
 }
 
@@ -214,7 +213,6 @@ header {
 .about-list {
   display: flex;
   padding-top: 94px;
-  margin: 0;
 }
 
 .about-item:first-child {
@@ -236,7 +234,6 @@ header {
 .spec-list {
   display: flex;
   justify-content: space-between;
-  margin: 0;
 }
 
 .spec-item:first-child {
@@ -309,7 +306,6 @@ header {
 .team-list {
   display: flex;
   padding-bottom: 94px;
-  margin: 0;
 }
 
 .list-item {
@@ -351,12 +347,13 @@ header {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  display: block;
+  padding-top: 60px;
 }
 
 .footer-back {
   background-color: var(--back-color);
   height: 252px;
-  padding-top: 60px;
 }
 
 /*адрес*/
@@ -368,6 +365,7 @@ header {
   line-height: 24px;
   letter-spacing: 0.03em;
   margin-top: 20px;
+  margin-bottom: 9px;
 }
 
 .footer-contact:first-child {
@@ -375,5 +373,5 @@ header {
 }
 
 .footer-contact:last-child {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
