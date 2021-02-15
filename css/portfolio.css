@@ -148,6 +148,7 @@ header {
 .hero-list {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .hero-list li:first-child {
@@ -203,9 +204,6 @@ header {
   border: 1px solid #eeeeee;
 }
 
-.head-text {
-}
-
 .img-head {
   color: rgba(33, 33, 33, 1);
   font-style: normal;
@@ -252,7 +250,7 @@ header {
 }
 
 .img-group:first-child {
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .img-group:last-child {
@@ -312,4 +310,8 @@ header {
 
 .img-item img {
   padding-bottom: 20px;
+}
+
+.img-list {
+  margin: 0;
 }
