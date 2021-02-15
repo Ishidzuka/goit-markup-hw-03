@@ -172,7 +172,10 @@ header {
   background: var(--btn-color);
   color: var(--h-color);
   border: none;
-  margin-top: 95px;
+}
+
+.hero-btns {
+  padding-top: 94px;
 }
 
 .hero-btn:hover {
@@ -201,12 +204,6 @@ header {
 }
 
 .head-text {
-  margin-bottom: 20px;
-  margin-top: 4px;
-}
-
-.img-head {
-  margin-top: 20px;
 }
 
 .img-head {
@@ -227,6 +224,8 @@ header {
   line-height: 24px;
   letter-spacing: 0.03em;
   padding: 0px 24px;
+  padding-top: 4px;
+  padding-bottom: 20px;
 }
 
 .img-item:nth-child(2) {
@@ -246,7 +245,6 @@ header {
 
 .img-group {
   display: flex;
-  justify-content: space-between;
 }
 
 .img-group:nth-child(2) {
@@ -258,7 +256,7 @@ header {
 }
 
 .img-group:last-child {
-  margin-bottom: 95px;
+  padding-bottom: 94px;
 }
 
 /*футер*/
@@ -310,4 +308,8 @@ header {
 
 .footer-contact:last-child {
   margin-bottom: 60px;
+}
+
+.img-item img {
+  padding-bottom: 20px;
 }
