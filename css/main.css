@@ -347,8 +347,8 @@ header {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
   display: block;
-  padding-top: 60px;
 }
 
 .footer-back {
@@ -364,14 +364,13 @@ header {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  margin-top: 20px;
-  margin-bottom: 9px;
 }
 
 .footer-contact:first-child {
   margin-bottom: 9px;
 }
 
-.footer-contact:last-child {
+.footer-text {
+  padding-top: 60px;
   padding-bottom: 60px;
 }

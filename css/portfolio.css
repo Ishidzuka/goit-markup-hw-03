@@ -211,7 +211,6 @@ header {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  padding: 0px 24px;
 }
 
 .head-text {
@@ -221,9 +220,11 @@ header {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  padding: 0px 24px;
-  padding-top: 4px;
-  padding-bottom: 20px;
+  margin-top: 4px;
+}
+
+.img-text {
+  padding: 20px 24px;
 }
 
 .img-item:nth-child(2) {
@@ -250,7 +251,7 @@ header {
 }
 
 .img-group:first-child {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .img-group:last-child {
@@ -281,12 +282,13 @@ header {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  display: block;
 }
 
 .footer-back {
   background-color: var(--back-color);
   height: 252px;
-  padding-top: 60px;
 }
 
 /*адрес*/
@@ -297,17 +299,13 @@ header {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  margin-top: 20px;
 }
 
 .footer-contact:first-child {
   margin-bottom: 9px;
 }
 
-.footer-contact:last-child {
-  margin-bottom: 60px;
-}
-
-.img-item img {
-  padding-bottom: 20px;
+.footer-text {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
