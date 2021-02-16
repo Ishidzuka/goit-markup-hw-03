@@ -210,9 +210,12 @@ header {
   width: 270px;
 }
 
+.about {
+  padding-top: 94px;
+}
+
 .about-list {
   display: flex;
-  padding-top: 94px;
 }
 
 .about-item:first-child {
@@ -244,11 +247,11 @@ header {
   margin-left: 30px;
 }
 
-.spec-item {
-  margin-bottom: 94px;
+.spec {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-/*Команда*/
 .our-spec {
   font-style: normal;
   font-weight: bold;
@@ -256,8 +259,9 @@ header {
   line-height: 42px;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
+
+/*Команда*/
 
 .team-head {
   color: rgba(33, 33, 33, 1);
@@ -267,7 +271,6 @@ header {
   line-height: 42px;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -301,11 +304,12 @@ header {
 .team {
   display: flex;
   background-color: rgba(245, 244, 250, 1);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .list-item {
@@ -354,6 +358,8 @@ header {
 .footer-back {
   background-color: var(--back-color);
   height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /*адрес*/
@@ -368,9 +374,4 @@ header {
 
 .footer-contact:first-child {
   margin-bottom: 9px;
-}
-
-.footer-text {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
